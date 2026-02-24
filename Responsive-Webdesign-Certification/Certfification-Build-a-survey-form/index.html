@@ -17,11 +17,28 @@
         <input type="number" id="age" name="age" placeholder="Age" min="0" max="120">
 
         <p>Which option best describes your current role?</p>
-        <select name="select" id="dropdown">
+        <select name="select" id="option-dropdown">
             <option value="option1">Select current role</option>
             <option value="option2">Manegment</option>
             <option value="option3">Technical Support</option>
         </select>
+
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" id="definitely" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label>
+        <input type="radio" id="maybe" name="recommend" value="maybe">  
+        <label for="maybe">Maybe</label>
+        <input type="radio" id="not-sure" name="recommend" value="not-sure">
+        <label for="not-sure">Not sure</label>
+
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select name="feature" id="feature-dropdown">
+            <option value="feature0">Select option</option>
+            <option value="feature1">Front-end Projects</option>
+            <option value="feature2">Back-end Projects</option>
+            <option value="feature3">Data Visualization</option>
+        </select>
+
     </form>
 </body>
 </html>
